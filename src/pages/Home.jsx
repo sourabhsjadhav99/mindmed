@@ -1,7 +1,7 @@
 // Home.js
 import React from "react";
 import { homeContent } from "../utils/homeContent"; // Adjust the path based on your folder structure
-
+import { IoMenu, IoClose } from "react-icons/io5";
 export default function Home() {
   return (
     <div className="container mx-auto p-6">
