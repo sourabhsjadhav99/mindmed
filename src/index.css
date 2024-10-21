@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body{
+    background-color: whitesmoke;
+}
+:root {
+    --primary-color: #202020;
+    --secondary-color: #00aaf4;
+    --ternary-color:#00d258
+
+  }
+
+
+
+.header-border{
+    background-color: (90deg, #00aaf4 30%, #00d258 95%, #00d258 100%)
+}
