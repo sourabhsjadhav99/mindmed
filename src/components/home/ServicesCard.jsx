@@ -1,8 +1,8 @@
 import { FaCircleCheck } from "react-icons/fa6";
-function Card({ title, description }) {
+function ServicesCard({ title, description }) {
   return (
     <div className="flex bg-white p-5  items-center gap-2 shadow-md">
-      <div className="text-5xl text-secondary">
+      <div className="text-5xl text-ternary">
         <FaCircleCheck />
       </div>
       <div className="">
@@ -13,4 +13,4 @@ function Card({ title, description }) {
   );
 }
 
-export default Card;
+export default ServicesCard;

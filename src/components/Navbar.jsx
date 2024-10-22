@@ -24,9 +24,9 @@ function Header() {
         <div className="w-[100%] md:w-[95%] lg:w-[90%] xl:w-[80%] h-full flex justify-between items-center ">
           <div className="min-w-[10%] h-full flex justify-center items-center gap-2">
             <div className="flex justify-center items-center">
-              <img src={mindlogo} alt="" className="h-[40px] w-[40px]" />{" "}
+              <img src={mindlogo} alt="" className="h-[30px] w-[30px] md:h-[40px] md:w-[40px]" />{" "}
             </div>
-            <h3 className="text-3xl font-bold h-[80%] hidden md:flex justify-center items-center">
+            <h3 className="text-xl md:text-3xl font-bold h-[80%] flex justify-center items-center">
              <span className="text-secondary">Mindmed </span> <span className="text-ternary">Innovations</span>
             </h3>
           </div>
@@ -49,7 +49,7 @@ function Header() {
                     return `font-semibold h-full flex items-center transition-colors duration-300 ease-in-out  ${
                       applyActiveClass
                         ? "text-ternary border-b-4 border-ternary font-bold"
-                        : "text-gray-500 border-b-4 border-transparent hover:border-gray-200"
+                        : "text-gray-500 border-b-4 border-transparent hover:border-secondary hover:text-secondary"
                     }`;
                   }}
                 >
@@ -70,8 +70,8 @@ function Header() {
           isOpenNavLinks ? "translate-x-0" : "translate-x-full"
         }`}
       >
-        <button className="text-xl self-end mb-4" onClick={toggleNavLinks}>
-          <IoClose />
+        <button className="text-xl self-end mb-4" onClick={()=>setIsOpenNavLinks(false)}>
+          <IoClose/>
         </button>
         <div
           className="flex flex-col items-start space-y-4 py-4 w-full"
@@ -79,7 +79,7 @@ function Header() {
         >
           {navdata.map((link) => {
             return (
-              <div key={link.id} className="w-full border-b border-gray-300">
+              <div key={link.id} className="w-full border-b-2 border-gray-200">
                 <NavLink
                   to={link.path}
                   key={link.id}
@@ -94,7 +94,7 @@ function Header() {
                     return `font-semibold h-full flex items-center transition-colors duration-300 ease-in-out  ${
                       applyActiveClass
                         ? "text-ternary  font-bold"
-                        : "text-gray-500 border-transparent hover:border-gray-200"
+                        : "text-gray-500 border-transparent hover:text-secondary"
                     }`;
                   }}
                   onClick={toggleNavLinks}
