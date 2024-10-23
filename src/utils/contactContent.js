@@ -32,15 +32,12 @@ export const contactContent = {
     connectWithUs: {
       title: "Connect with Us",
       description: "Stay up-to-date with our latest innovations and news by following us on social media:",
-      links: [
-        { platform: "LinkedIn", url: "https://www.linkedin.com", color: "text-blue-700" },
-        { platform: "Twitter", url: "https://www.twitter.com", color: "text-blue-500" },
-        { platform: "Facebook", url: "https://www.facebook.com", color: "text-blue-600" },
-      ],
+      linkedin: {  url: "https://www.linkedin.com" },
+      twitter: { url: "https://www.twitter.com" },
+      facebook: {  url: "https://www.facebook.com" },
     },
     contactForm: {
       title: "Get in Touch Online",
       description: "You can also fill out the form below, and one of our team members will get back to you shortly.",
     },
   };
-  

@@ -1,21 +1,26 @@
 // ContactForm.js
-import React from 'react';
-import { useFormik } from 'formik';
-import InputField from './InputField'; // Adjust the path based on your folder structure
-import { contactValidationSchema } from '../../validations/contactFormValidations'; // Adjust the path to your validation schema
-
+import React from "react";
+import { useFormik } from "formik";
+import InputField from "./InputField"; // Adjust the path based on your folder structure
+import { contactValidationSchema } from "../../validations/contactFormValidations"; // Adjust the path to your validation schema
+import Swal from 'sweetalert2';
 const ContactForm = () => {
   const formik = useFormik({
     initialValues: {
-      name: '',
-      email: '',
-      phone: '',
-      message: '',
+      name: "",
+      email: "",
+      phone: "",
+      message: "",
     },
     validationSchema: contactValidationSchema,
     onSubmit: (values) => {
-      console.log('Form data:', values);
+      console.log("Form data:", values);
       // Handle form submission (e.g., send data to an API)
+      Swal.fire({
+        title: "Form Submitted!",
+        text: `We will reach you soon!`,
+        icon: "success",
+      });
     },
   });
 
@@ -52,7 +57,9 @@ const ContactForm = () => {
         error={formik.touched.phone && formik.errors.phone}
       />
       <div className="mb-4">
-        <label htmlFor="message" className="block text-gray-700 mb-2">Message</label>
+        <label htmlFor="message" className="block text-gray-700 mb-2">
+          Message:
+        </label>
         <textarea
           id="message"
           name="message"
@@ -67,7 +74,10 @@ const ContactForm = () => {
           <div className="text-red-500 text-sm">{formik.errors.message}</div>
         )}
       </div>
-      <button type="submit" className="w-full bg-blue-500 text-white p-2 rounded hover:bg-blue-600">
+      <button
+        type="submit"
+        className="w-full text-lg font-semibold hover:font-bold bg-red-300 text-white p-2 rounded hover:bg-secondary"
+      >
         Submit
       </button>
     </form>
