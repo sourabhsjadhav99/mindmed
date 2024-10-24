@@ -27,7 +27,7 @@ function Header() {
               <img src={mindlogo} alt="" className="h-[30px] w-[30px] md:h-[40px] md:w-[40px]" />{" "}
             </div>
             <h3 className="text-xl md:text-3xl font-bold h-[80%] flex justify-center items-center">
-             <span className="text-secondary">Mindmed </span> <span className="text-ternary">Innovations</span>
+             <span className="text-secondary">MindMed </span> <span className="text-ternary">Innovations</span>
             </h3>
           </div>
 
@@ -66,7 +66,7 @@ function Header() {
       <div className="absolute left-0 bottom-0 w-full h-[7px] bg-gradient-to-r from-secondary  to-[#00d258]"></div>
       {/* Mobile Menu */}
       <div
-        className={`fixed flex md:hidden flex-col w-full inset-0 bg-white text-gray-700 z-50 transform transition-transform duration-500 ease-in-out p-5 ${
+        className={`fixed flex md:hidden flex-col w-full inset-0 bg-white text-primary z-50 transform transition-transform duration-500 ease-in-out p-5 ${
           isOpenNavLinks ? "translate-x-0" : "translate-x-full"
         }`}
       >

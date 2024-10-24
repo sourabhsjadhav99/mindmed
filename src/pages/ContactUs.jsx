@@ -19,14 +19,14 @@ export default function ContactUs() {
             <h1 className="text-3xl font-bold text-center mb-6 ">
               {contactContent.heading}
             </h1>
-            <p className="text-center text-gray-600 ">
+            <p className="text-center text-primary text-lg ">
               {contactContent.introText}
             </p>
           </section>
 
           {/* How to Reach Us Section */}
           <section className="w-[90%] lg:w-[40%] bg-white rounded-bl-3xl rounded-tr-3xl shadow-lg ">
-            <h3 className="text-3xl text-primary font-semibold rounded-tr-3xl mb-4 p-5 bg-gradient-to-r from-red-300  to-red-100">
+            <h3 className="text-3xl text-gray-500 font-semibold rounded-tr-3xl mb-4 p-5 bg-gradient-to-r from-red-300  to-red-100">
               {contactContent.howToReachUs.title}
             </h3>
 
@@ -115,7 +115,7 @@ export default function ContactUs() {
           <h3 className="text-3xl font-semibold mb-4">
             {contactContent.connectWithUs.title}
           </h3>
-          <p className="text-gray-600 mb-4">
+          <p className="text-primary text-lg mb-4">
             {contactContent.connectWithUs.description}
           </p>
 
@@ -145,7 +145,7 @@ export default function ContactUs() {
           <h3 className="text-3xl text-primary font-semibold mb-4">
             {contactContent.contactForm.title}
           </h3>
-          <p className="text-primary text-md">
+          <p className="text-primary text-lg">
             {contactContent.contactForm.description}
           </p>
           <div className="border w-[90%] md:w-[70%] xl:w-[50%] rounded-xl p-5 shadow-lg shadow-red-200">

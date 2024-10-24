@@ -10,6 +10,7 @@ export default {
         primary: 'var(--primary-color)',
         secondary: 'var(--secondary-color)',
         ternary:'var(--ternary-color)',
+        
       }
     },
   },
