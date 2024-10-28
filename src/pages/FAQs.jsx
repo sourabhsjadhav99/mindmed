@@ -15,7 +15,7 @@ export default function FAQ() {
           <h1 className="text-3xl font-bold text-center mb-6">
             Frequently Asked Questions (FAQs)
           </h1>
-          <p className="text-center text-primary">
+          <p className="text-center text-primary text-lg">
             We’ve compiled answers to some of the most common questions we
             receive about our services. If you have a question that isn’t
             addressed here, feel free to reach out to us via our Contact Us

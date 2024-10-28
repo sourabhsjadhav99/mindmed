@@ -8,20 +8,22 @@ export default function Home() {
   return (
     <div className="w-full m-0 flex flex-col items-center">
       {/* Heading */}
-      <section className="flex flex-col gap-4 p-10 bg-white">
-        <h3 className="text-lg text-gray-500 font-semibold text-center uppercase tracking-wide">
-          {homeContent.heading}
-        </h3>
-        <h1 className="text-5xl lg:text-6xl font-bold text-center">
-          <span className="text-primary">Innovating Healthcare for a</span>{" "}
-          <span className="text-secondary block lg:inline">
-            Better Tomorrow
-          </span>
-        </h1>
+      <section className="w-full flex items-center justify-center bg-white pb-10">
+        <div className="w-[100%] md:w-[95%] lg:w-[90%] xl:w-[80%] flex flex-col gap-5  items-center p-5">
+          <h3 className="text-lg text-gray-500 font-semibold text-center uppercase tracking-wide">
+            {homeContent.heading}
+          </h3>
+          <h1 className="text-4xl lg:text-5xl font-bold text-center">
+            <span className="text-primary">Innovating Healthcare for a</span>{" "}
+            <span className="text-secondary block xl:inline">
+              Better Tomorrow
+            </span>
+          </h1>
 
-        <p className="text-center text-primary text-lg">
-          {homeContent.introduction}
-        </p>
+          <p className="text-center text-primary text-lg">
+            {homeContent.introduction}
+          </p>
+        </div>
       </section>
 
       {/* Who We Are Section */}

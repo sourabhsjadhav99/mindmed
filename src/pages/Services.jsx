@@ -23,7 +23,7 @@ export default function Services() {
       </h2>
       {/* Render each service */}
       <section className="w-[100%]   flex  justify-center items-center p-2 mb-10">
-        <div className="min-h-[500px] w-[100%] md:w-[95%] lg:w-[90%] xl:w-[80%] flex flex-col lg:flex-row items-center justify-center p-5 gap-5 bg-red-200 rounded-xl">
+        <div className="min-h-[500px] w-[100%] md:w-[95%] lg:w-[90%] xl:w-[80%] flex flex-col lg:flex-row items-center justify-center p-5 gap-5 bg-orange-200 rounded-xl">
           <div className="w-[100%] lg:w-[50%] h-[100%] flex justify-center items-center">
             <img
               src={ai_driven_img}

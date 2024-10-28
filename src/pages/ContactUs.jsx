@@ -19,21 +19,21 @@ export default function ContactUs() {
             <h1 className="text-3xl font-bold text-center mb-6 ">
               {contactContent.heading}
             </h1>
-            <p className="text-center text-primary text-lg ">
+            <p className="text-center text-primary text-lg p-2">
               {contactContent.introText}
             </p>
           </section>
 
           {/* How to Reach Us Section */}
           <section className="w-[90%] lg:w-[40%] bg-white rounded-bl-3xl rounded-tr-3xl shadow-lg ">
-            <h3 className="text-3xl text-gray-500 font-semibold rounded-tr-3xl mb-4 p-5 bg-gradient-to-r from-red-300  to-red-100">
+            <h3 className="text-3xl text-gray-500 font-semibold rounded-tr-3xl mb-4 p-5 bg-gradient-to-r from-orange-300  to-orange-100">
               {contactContent.howToReachUs.title}
             </h3>
 
             {/* Email */}
 
             <div className="w-[100%] flex gap-5 justify-start items-center border-b-2 p-5">
-              <p className="text-4xl font-bold text-red-300">
+              <p className="text-4xl font-bold text-orange-400">
                 <TiMail />
               </p>
               <div className="flex flex-col">
@@ -51,7 +51,7 @@ export default function ContactUs() {
 
             {/* Phone */}
             <div className="w-[100%] flex gap-5 justify-start items-center border-b-2 p-5">
-              <p className="text-3xl font-bold text-red-300">
+              <p className="text-3xl font-bold text-orange-400">
                 <MdPhoneInTalk />
               </p>
               <div className="flex flex-col">
@@ -69,7 +69,7 @@ export default function ContactUs() {
 
             {/* Office Address */}
             <div className="w-[100%] flex gap-5 justify-start items-center border-b-2 p-5">
-              <p className="text-3xl font-bold text-red-300">
+              <p className="text-3xl font-bold text-orange-400">
                 <IoLocationOutline />
               </p>
               <div className="flex flex-col">
@@ -89,7 +89,7 @@ export default function ContactUs() {
             {/* Business Hours */}
 
             <div className="w-[100%] flex gap-5 justify-start items-center p-5">
-              <p className="text-3xl font-bold text-red-300">
+              <p className="text-3xl font-bold text-orange-400">
                 <MdAccessTime />
               </p>
               <div className="flex flex-col">
@@ -148,7 +148,7 @@ export default function ContactUs() {
           <p className="text-primary text-lg">
             {contactContent.contactForm.description}
           </p>
-          <div className="border w-[90%] md:w-[70%] xl:w-[50%] rounded-xl p-5 shadow-lg shadow-red-200">
+          <div className="border w-[90%] md:w-[70%] xl:w-[50%] rounded-xl p-5 shadow-lg shadow-orange-200">
             <ContactForm />
           </div>
         </div>

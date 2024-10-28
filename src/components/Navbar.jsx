@@ -20,15 +20,31 @@ function Header() {
 
   return (
     <div className="relative w-full ">
-      <nav className="bg-white w-full h-[90px] flex items-center justify-center px-2">
-        <div className="w-[100%] md:w-[95%] lg:w-[90%] xl:w-[80%] h-full flex justify-between items-center ">
+      <nav className="bg-white w-full h-[100px] flex items-center justify-center px-2">
+        <div className="w-[100%] md:w-[95%] lg:w-[90%] xl:w-[80%] h-full flex justify-between items-center p-4 ">
+          {/* logo  */}
           <div className="min-w-[10%] h-full flex justify-center items-center gap-2">
-            <div className="flex justify-center items-center">
-              <img src={mindlogo} alt="" className="h-[30px] w-[30px] md:h-[40px] md:w-[40px]" />{" "}
+            <div className="flex justify-center items-center h-full">
+              <img
+                src={mindlogo}
+                alt=""
+                className="h-[30px] w-[30px] md:h-[60px] md:w-[60px]"
+              />{" "}
             </div>
-            <h3 className="text-xl md:text-3xl font-bold h-[80%] flex justify-center items-center">
-             <span className="text-secondary">MindMed </span> <span className="text-ternary">Innovations</span>
-            </h3>
+            <div className="h-full w-[3px] bg-gradient-to-b from-orange-400  to-secondary"></div>
+          
+            <div className="flex flex-col items-center ">
+              <h2 className="text-2xl md:text-4xl h-[80%] flex justify-center items-center tracking-wide">
+                <span className="text-secondary">M </span> <span> IND</span>
+                <span className="text-orange-400">M</span>
+                <span className="text-primary">ED</span>
+              </h2>
+              <div>
+                {" "}
+                <span className="text-ternary text-md font-semibold">INNOVATIONS PVT LTD</span>
+              </div>
+            </div>
+            
           </div>
 
           {/* Middle Links (Hidden on small screens) */}
@@ -70,8 +86,11 @@ function Header() {
           isOpenNavLinks ? "translate-x-0" : "translate-x-full"
         }`}
       >
-        <button className="text-xl self-end mb-4" onClick={()=>setIsOpenNavLinks(false)}>
-          <IoClose/>
+        <button
+          className="text-xl self-end mb-4"
+          onClick={() => setIsOpenNavLinks(false)}
+        >
+          <IoClose />
         </button>
         <div
           className="flex flex-col items-start space-y-4 py-4 w-full"
