@@ -20,11 +20,11 @@ function Header() {
 
   return (
     <div className="relative w-full ">
-      <nav className="bg-white w-full h-[100px] flex items-center justify-center px-2">
-        <div className="w-[100%] md:w-[95%] lg:w-[90%] xl:w-[80%] h-full flex justify-between items-center p-4 ">
+      <nav className="bg-white w-full h-[100px] flex-box px-2">
+        <div className="w-[100%] responsive h-full flex justify-between items-center p-4 ">
           {/* logo  */}
-          <div className="min-w-[10%] h-full flex justify-center items-center gap-2">
-            <div className="flex justify-center items-center h-full">
+          <div className="min-w-[10%] h-full flex-box gap-2">
+            <div className="flex-box h-full">
               <img
                 src={mindlogo}
                 alt=""
@@ -34,7 +34,7 @@ function Header() {
             <div className="h-full w-[3px] bg-gradient-to-b from-orange-400  to-secondary"></div>
           
             <div className="flex flex-col items-center ">
-              <h2 className="text-2xl md:text-4xl h-[80%] flex justify-center items-center tracking-wide">
+              <h2 className="text-2xl md:text-4xl h-[80%] flex-box tracking-wide">
                 <span className="text-secondary">M </span> <span> IND</span>
                 <span className="text-orange-400">M</span>
                 <span className="text-primary">ED</span>
@@ -79,7 +79,7 @@ function Header() {
           </button>
         </div>
       </nav>
-      <div className="absolute left-0 bottom-0 w-full h-[7px] bg-gradient-to-r from-secondary  to-[#00d258]"></div>
+      <div className="absolute left-0 bottom-0 w-full h-[7px] bg-gradient-to-r from-secondary  to-ternary"></div>
       {/* Mobile Menu */}
       <div
         className={`fixed flex md:hidden flex-col w-full inset-0 bg-white text-primary z-50 transform transition-transform duration-500 ease-in-out p-5 ${
@@ -110,7 +110,7 @@ function Header() {
                     // Highlight "Home" for both "/" and "/home"
                     const applyActiveClass =
                       (link.path === "/" && isHomeActive) || isActive;
-                    return `font-semibold h-full flex items-center transition-colors duration-300 ease-in-out  ${
+                    return `font-semibold h-full flex items-center transition-colors duration-500 ease-in-out  ${
                       applyActiveClass
                         ? "text-ternary  font-bold"
                         : "text-gray-500 border-transparent hover:text-secondary"

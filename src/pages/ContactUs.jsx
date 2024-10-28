@@ -12,8 +12,8 @@ import { FaFacebook } from "react-icons/fa";
 export default function ContactUs() {
   return (
     <div className="mx-auto ">
-      <div className="flex  justify-center items-center w-full py-10 bg-white ">
-        <div className="w-[100%] md:w-[95%] lg:w-[90%] xl:w-[80%] flex flex-col lg:flex-row justify-center  items-center gap-10">
+      <div className="flex  flex-box w-full py-10 bg-white ">
+        <div className="w-[100%] responsive flex-box flex-col lg:flex-row  gap-10">
           {/* Heading */}
           <section className="w-[90%] lg:w-[40%] ">
             <h1 className="text-3xl font-bold text-center mb-6 ">
@@ -110,8 +110,8 @@ export default function ContactUs() {
       </div>
 
       {/* Connect with Us Section */}
-      <section className="py-8 flex items-center justify-center">
-        <div className="  w-[95%] lg:w-[90%] xl:w-[80%] flex flex-col items-center justify-center">
+      <section className="py-8 flex-box">
+        <div className="  w-[95%] lg:w-[90%] xl:w-[80%] flex-box flex-col ">
           <h3 className="text-3xl font-semibold mb-4">
             {contactContent.connectWithUs.title}
           </h3>
@@ -140,8 +140,8 @@ export default function ContactUs() {
       </section>
 
       {/* Contact Form */}
-      <section className="py-8 flex items-center justify-center bg-white">
-        <div className="w-[95%] lg:w-[90%] xl:w-[80%] flex flex-col items-center justify-center gap-5">
+      <section className="py-8 flex-box bg-white">
+        <div className="w-[95%] lg:w-[90%] xl:w-[80%] flex-box flex-col  gap-5">
           <h3 className="text-3xl text-primary font-semibold mb-4">
             {contactContent.contactForm.title}
           </h3>

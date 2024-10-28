@@ -10,7 +10,7 @@ export default function FAQ() {
   return (
     <div className=" bg-white">
       <section className="w-full bg-gray-100 flex justify-center border ">
-        <div className="w-[100%] md:w-[95%] lg:w-[90%] xl:w-[80%] flex flex-col items-center rounded-xl p-5 ">
+        <div className="w-[100%] responsive flex flex-col items-center rounded-xl p-5 ">
           {/* Heading */}
           <h1 className="text-3xl font-bold text-center mb-6">
             Frequently Asked Questions (FAQs)
@@ -68,7 +68,7 @@ export default function FAQ() {
         </div>
       </section>
       <section className="w-full bg-white flex justify-center border min-h-[400px] ">
-        <div className="w-[100%] md:w-[95%] lg:w-[90%] xl:w-[80%] flex flex-col items-center rounded-xl p-5 ">
+        <div className="w-[100%] responsive flex flex-col items-center rounded-xl p-5 ">
           {activeSection === "general" && <GeneralQuestions />}
           {activeSection === "sos" && <SOSQuestions />}
           {activeSection === "technical" && <TechnicalQuestions />}

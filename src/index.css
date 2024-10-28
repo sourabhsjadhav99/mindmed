@@ -18,3 +18,12 @@ body{
 .header-border{
     background-color: (90deg, #00aaf4 30%, #00d258 95%, #00d258 100%)
 }
+
+.responsive{
+    @apply md:w-[95%] lg:w-[90%] xl:w-[80%]
+}
+
+.flex-box{
+    @apply flex items-center justify-center flex-wrap
+}
+

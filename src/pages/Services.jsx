@@ -8,8 +8,8 @@ export default function Services() {
   return (
     <div className=" mx-auto bg-white">
       {/* Heading */}
-      <section className="w-[100%]   flex  justify-center items-center mb-8">
-        <div className=" w-[100%] md:w-[95%] lg:w-[90%] xl:w-[80%] p-5">
+      <section className="w-[100%] flex-box mb-8">
+        <div className=" w-[100%] responsive p-5">
           <h1 className="text-3xl font-bold text-center mb-6">
             {servicesContent.heading}
           </h1>
@@ -22,9 +22,9 @@ export default function Services() {
         {servicesContent.subheading}
       </h2>
       {/* Render each service */}
-      <section className="w-[100%]   flex  justify-center items-center p-2 mb-10">
-        <div className="min-h-[500px] w-[100%] md:w-[95%] lg:w-[90%] xl:w-[80%] flex flex-col lg:flex-row items-center justify-center p-5 gap-5 bg-orange-200 rounded-xl">
-          <div className="w-[100%] lg:w-[50%] h-[100%] flex justify-center items-center">
+      <section className="w-[100%] flex-box p-2 mb-10">
+        <div className="min-h-[500px] w-[100%] responsive flex-box flex-col lg:flex-row  p-5 gap-5 bg-orange-200 rounded-xl">
+          <div className="w-[100%] lg:w-[50%] h-[100%] flex-box">
             <img
               src={ai_driven_img}
               alt=""
@@ -57,8 +57,8 @@ export default function Services() {
         </div>
       </section>
 
-      <section className="w-[100%]   flex  justify-center items-center p-2 mb-10">
-        <div className="min-h-[500px] w-[100%] md:w-[95%] lg:w-[90%] xl:w-[80%] flex flex-col lg:flex-row items-center justify-center p-5 gap-5 bg-secondary rounded-xl">
+      <section className="w-[100%] flex-box p-2 mb-10">
+        <div className="min-h-[500px] w-[100%] responsive flex-box flex-col lg:flex-row p-5 gap-5 bg-secondary rounded-xl">
           <div className="w-[100%] lg:w-[50%] flex flex-col gap-3 ">
             <h3 className="text-2xl text-white font-semibold">
               {servicesContent.sosService.title}
@@ -86,7 +86,7 @@ export default function Services() {
               ))}
             </ul>
           </div>
-          <div className="w-[100%] lg:w-[50%] h-[100%] flex justify-center items-center">
+          <div className="w-[100%] lg:w-[50%] h-[100%] flex-box">
             <img
               src={sos_img}
               alt=""
@@ -96,8 +96,8 @@ export default function Services() {
         </div>
       </section>
       {/* Why Choose Us Section */}
-      <section className="w-full bg-white flex justify-center items-center">
-        <div className="w-[100%] md:w-[95%] lg:w-[90%] xl:w-[80%] flex flex-col items-center rounded-xl mb-8 p-5 ">
+      <section className="w-full bg-white flex-box">
+        <div className="w-[100%] responsive flex flex-col items-center rounded-xl mb-8 p-5 ">
           <h3 className="text-3xl font-semibold mb-4">
             {servicesContent.whyChooseUs.title}
           </h3>
