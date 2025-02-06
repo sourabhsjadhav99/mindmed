@@ -5,6 +5,7 @@ import ContactUs from "./pages/ContactUs";
 import FAQs from "./pages/FAQs";
 import Services from "./pages/Services";
 import Navbar from "./components/Navbar";
+import AboutUs from "./pages/AboutUs";
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/faqs" element={<FAQs />} />
         <Route path="/services" element={<Services />} />
+        <Route path="/about" element={<AboutUs />} />
       </Routes>
     </div>
   );
