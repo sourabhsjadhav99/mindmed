@@ -45,7 +45,7 @@ export const faqContent = {
     support: [
       {
         question: "12. How do I get support for one of your products?",
-        answer: "If you need help with any of our products or services, please reach out to our support team via email or call us at +91-XXXXXXXXXX. You can also visit our Contact Us page for additional resources."
+        answer: "If you need help with any of our products or services, please reach out to our support team via email or call us at +91-9075559311. You can also visit our Contact Us page for additional resources."
       },
       {
         question: "13. What payment methods do you accept?",
