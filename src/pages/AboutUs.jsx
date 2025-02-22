@@ -5,7 +5,8 @@ import Carousel from "../components/aboutUs/Carousel";
 import { DoctorsTeam, leadershipTeam } from "../utils/aboutUs";
 const AboutUs = () => {
   return (
-    <div>
+    <div className="my-10 flex flex-col gap-5">
+      <h1 className="text-3xl font-bold text-center mb-6">Who we Are ?</h1>
       {/* Dynamic Section Rendering */}
       <section className="w-[100%] flex-box mb-5">
         <div className="w-[100%] responsive flex flex-col gap-5">
@@ -36,9 +37,13 @@ const AboutUs = () => {
         </div>
       </section>
       <section className="w-[100%] flex-box">
-        <div className="w-[100%] responsive flex flex-col gap-5 p-5 bg-secondary rounded-lg">
-          <Carousel data={DoctorsTeam}/>
-          <Carousel data={leadershipTeam}/>
+        <div className="w-[100%] responsive flex flex-col gap-5 p-5 shadow-lg rounded-lg bg-orange-200">
+          <Carousel data={DoctorsTeam} />
+        </div>
+      </section>
+      <section className="w-[100%] flex-box">
+        <div className="w-[100%] responsive flex flex-col gap-5 p-5 shadow-lg rounded-lg bg-secondary">
+          <Carousel data={leadershipTeam} />
         </div>
       </section>
     </div>
@@ -46,4 +51,3 @@ const AboutUs = () => {
 };
 
 export default AboutUs;
-

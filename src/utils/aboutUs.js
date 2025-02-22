@@ -1,3 +1,5 @@
+import ai_driven_img from "../assets/images/ai_driven.jpg";
+
 // aboutUsContent.js
 export const aboutUsContent = {
     WhatDrivesUs: {
@@ -44,14 +46,14 @@ export let leadershipTeam={
             {
                 designation:"Manager",
                 name:"Aniruddha Pranab Kumar Chakravertty",
-                image:"/images/about/aniruddha.jpg",
+                image:ai_driven_img,
                 description:"I worked with a dedicated team of doctors to develop a comprehensive program focused on boosting cognitive health and memory in teenagers. Using proven cognitive training techniques, our program is designed to enhance memory, improve focus, and support overall brain health. With a holistic approach, we integrated interactive exercises, mindfulness practices, stress management strategies, and nutritional guidelines to offer a complete mental performance boost. Engaging multimedia content and practical, real-life applications keep teens involved and enhance learning. Early feedback shows significant improvements in concentration, memory retention, and problem-solving skills, confirming the program’s success. Collaborating with fellow healthcare professionals was truly inspiring, highlighting the value of early intervention and scientific rigor in cognitive enhancement. We continue to refine our content to ensure it remains both relevant and impactful for adolescent development, setting a new benchmark in cognitive care for teenagers."
                 
             },
             {
                 designation:"Director",
                 name:"Sandipkumar Pawar",
-                image:"/images/about/sandip.jpg",
+                image:ai_driven_img,
                 description:"I worked with a dedicated team of doctors to develop a comprehensive program focused on boosting cognitive health and memory in teenagers. Using proven cognitive training techniques, our program is designed to enhance memory, improve focus, and support overall brain health. With a holistic approach, we integrated interactive exercises, mindfulness practices, stress management strategies, and nutritional guidelines to offer a complete mental performance boost. Engaging multimedia content and practical, real-life applications keep teens involved and enhance learning. Early feedback shows significant improvements in concentration, memory retention, and problem-solving skills, confirming the program’s success. Collaborating with fellow healthcare professionals was truly inspiring, highlighting the value of early intervention and scientific rigor in cognitive enhancement. We continue to refine our content to ensure it remains both relevant and impactful for adolescent development, setting a new benchmark in cognitive care for teenagers."
             },
             {
