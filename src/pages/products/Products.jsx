@@ -9,7 +9,6 @@ export default function Products() {
 
   // Ref for user menu
   const menuRef = useRef(null);
-
   useClickOutside(menuRef, () => setIsOpenNavLinks(false));
 
   // Toggle navigation links
@@ -23,19 +22,17 @@ export default function Products() {
 
       {/* Dynamic Navigation */}
       <div className="flex gap-4 mb-5 border-b pb-3">
-        {productsData.map((product) => (
+        {productsData.map((product, index) => (
           <NavLink
             to={product.path}
             key={product.id}
             className={({ isActive }) => {
-              const isHomeActive =
-                location.pathname === "/" || location.pathname === "/home";
+              const isProductsPage = location.pathname === "/products";
+              const isFirstProductActive =
+                isProductsPage && index === 0 ? true : isActive;
 
-              // Highlight "Home" for both "/" and "/home"
-              const applyActiveClass =
-                (product.path === "/" && isHomeActive) || isActive;
-              return `font-semibold h-full flex items-center transition-colors duration-300 ease-in-out  ${
-                applyActiveClass
+              return `font-semibold h-full flex items-center transition-colors duration-300 ease-in-out ${
+                isFirstProductActive
                   ? "text-ternary border-b-4 border-ternary font-bold"
                   : "text-gray-500 border-b-4 border-transparent hover:border-secondary hover:text-secondary"
               }`;
