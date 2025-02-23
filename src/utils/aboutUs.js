@@ -59,43 +59,43 @@ export let leadershipTeam={
             {
                 designation:"CEO",
                 name:"Dr. Abhishek P. Raje",
-                image:"/images/about/abhishek.jpg",
+                image:"",
                 description:"I worked with a dedicated team of doctors to develop a comprehensive program focused on boosting cognitive health and memory in teenagers. Using proven cognitive training techniques, our program is designed to enhance memory, improve focus, and support overall brain health. With a holistic approach, we integrated interactive exercises, mindfulness practices, stress management strategies, and nutritional guidelines to offer a complete mental performance boost. Engaging multimedia content and practical, real-life applications keep teens involved and enhance learning. Early feedback shows significant improvements in concentration, memory retention, and problem-solving skills, confirming the program’s success. Collaborating with fellow healthcare professionals was truly inspiring, highlighting the value of early intervention and scientific rigor in cognitive enhancement. We continue to refine our content to ensure it remains both relevant and impactful for adolescent development, setting a new benchmark in cognitive care for teenagers."
             }
         ]
     }
 
   export  let DoctorsTeam ={
-        title:"Meet Our Leadership Team",
+        title:"Meet Our Doctors Team",
         teamMembers:[
             {
                 designation:"doctor",
                 name:"DATO SIVA- DONE",
-                image:"/images/about/abhishek.jpg",
+                image:"",
                 description:"I worked with a dedicated team of doctors to develop a comprehensive program focused on boosting cognitive health and memory in teenagers. Using proven cognitive training techniques, our program is designed to enhance memory, improve focus, and support overall brain health. With a holistic approach, we integrated interactive exercises, mindfulness practices, stress management strategies, and nutritional guidelines to offer a complete mental performance boost. Engaging multimedia content and practical, real-life applications keep teens involved and enhance learning. Early feedback shows significant improvements in concentration, memory retention, and problem-solving skills, confirming the program’s success. Collaborating with fellow healthcare professionals was truly inspiring, highlighting the value of early intervention and scientific rigor in cognitive enhancement. We continue to refine our content to ensure it remains both relevant and impactful for adolescent development, setting a new benchmark in cognitive care for teenagers."
             },
             {
                 designation:"doctor",
                 name:"DR. ABHISHEK RAJE.",
-                image:"/images/about/abhishek.jpg",
+                image:"",
                 description:"Creating MindSprint, which is a memory development and cognitive well-being program has been one of the most personal and transformative journeys of my life. I poured my heart into crafting 130 videos that address the everyday challenges teenagers face—whether its memory lapses, struggles with focus, or feelings of depression. Along the way, I learned invaluable lessons about resilience, empathy, and the power of a positive mindset. I discovered that setbacks are really opportunities in disguise, helping me refine my approach and deepen my understanding of what young people truly need. This project is more than just a series of videos; it is a labor of love aimed at empowering students to unlock their full potential. Each video offers practical exercises and relatable strategies designed to boost memory, sharpen concentration, and promote emotional well-being. I believe that by integrating these tools into daily life, students can overcome obstacles and excel both in exams and in their personal growth. I am excited and hopeful that this program will serve as a supportive companion, guiding young minds toward a brighter, more confident future. My journey through this project has not only enriched my understanding of cognitive health but also fuelled my passion for helping students thrive."
             },
             {
                 designation:"doctor",
                 name:"DR. Girija RAJE.",
-                image:"/images/about/abhishek.jpg",
+                image:"",
                 description:"Working on this program has been a heartwarming journey for me as the team’s dietician. I’ve always believed that what we eat has a profound impact on how our minds work. Being able to weave nutritional strategies into MindSprint has been a true joy. I’ve seen firsthand how the right foods can enhance memory, boost concentration, and improve overall mental well-being. Collaborating with such passionate colleagues has deepened my appreciation for a holistic approach to health. Every step of this project reaffirms my commitment to helping teenagers’ harness both physical and mental strength. I’m genuinely proud to be part of an initiative that nurtures both mind and body, and I’m excited to see our work empower students to live healthier, more vibrant lives."
             },
             {
                 designation:"doctor",
                 name:"Dr. Snehal",
-                image:"/images/about/abhishek.jpg",
+                image:"",
                 description:"This project has been incredibly personal and fulfilling for me! Addressing challenges like depression, anxiety, and focus issues in a way that feels relatable to teenagers has been both a professional and emotional adventure.Working on MindSprint has allowed me to blend clinical insights with everyday advice, making mental health strategies accessible and practical. The collaborative spirit of our team has been inspiring, and every discussion reminds me of why I’m so passionate about my work. I truly believe that these videos will offer students not just academic tools, but a stronger, more resilient mindset. I feel honoured to contribute to something that has the potential to change lives and help young people face life’s hurdles with confidence and hope."
             },
             {
                 designation:"doctor",
                 name:"Dr. shweta",
-                image:"/images/about/abhishek.jpg",
+                image:"",
                 description:"Being a part of this project has been an enlightening and deeply rewarding experience. Working with the MindSprint team allowed me to dive into the fascinating science of memory and turn complex ideas into practical tips that teenagers can use every day. I’ve been inspired by our team’s dedication and the real-world impact our work can have on young minds. The process of translating cutting-edge research into relatable advice has been both challenging and immensely satisfying. I firmly believe that by adopting these strategies, students will not only sharpen their minds but also build the confidence needed to tackle academic and life challenges head-on. I’m thrilled to be part of a project that truly empowers the next generation to achieve their full potential."
             }
         ]

@@ -5,7 +5,7 @@ import Carousel from "../components/aboutUs/Carousel";
 import { DoctorsTeam, leadershipTeam } from "../utils/aboutUs";
 const AboutUs = () => {
   return (
-    <div className="my-10 flex flex-col gap-5">
+    <div className="mx-auto my-10 flex flex-col gap-5 p-2 md:p-5">
       <h1 className="text-3xl font-bold text-center mb-6">Who we Are ?</h1>
       {/* Dynamic Section Rendering */}
       <section className="w-[100%] flex-box mb-5">
@@ -19,13 +19,13 @@ const AboutUs = () => {
                     return (
                       <li
                         key={index}
-                        className=" font-semibold text-lg flex gap-3 items-start"
+                        className=" text-lg flex gap-3 items-start text-primary"
                       >
                         <div className="text-2xl py-2">
                           <IoIosArrowDroprightCircle />
                         </div>
                         <div>
-                          <p> {point}</p>
+                          <p className=""> {point}</p>
                         </div>
                       </li>
                     );
